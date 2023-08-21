@@ -1,0 +1,69 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$idcreate": "http://example.com/create.json",
+    "type": "object",
+    "title": "The Root Schema",
+    "required": [
+        "patient_id",
+        "visit_id",
+        "queue_id",
+        "visit_type_id",
+        "kelas_pelayanan_id",
+        "ruangan_id",
+        "tempat_tidur_id",
+        "priority",
+        "dokter_id",
+        "pindah_layanan_by"
+    ],
+    "properties": {
+        "patient_id": {
+            "$idupdate": "#/properties/patient_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "visit_id": {
+            "$idupdate": "#/properties/visit_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "queue_id": {
+            "$idupdate": "#/properties/queue_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "visit_type_id": {
+            "$idupdate": "#/properties/visit_type_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "kelas_pelayanan_id": {
+            "$idupdate": "#/properties/kelas_pelayanan_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "ruangan_id": {
+            "$idupdate": "#/properties/ruangan_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "tempat_tidur_id": {
+            "$idupdate": "#/properties/tempat_tidur_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "dokter_id": {
+            "$idupdate": "#/properties/dokter_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        }
+    }
+}

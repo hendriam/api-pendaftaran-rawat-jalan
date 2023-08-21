@@ -1,0 +1,32 @@
+{
+  "name": "pendaftaran-rawat-jalan",
+  "version": "1.0.0",
+  "description": "Ini adalah API untuk pendaftaran Rawat Jalan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/vickyromadon/pendaftaran-rawat-jalan.git"
+  },
+  "author": "vickyromadon46@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/vickyromadon/pendaftaran-rawat-jalan/issues"
+  },
+  "homepage": "https://gitlab.com/vickyromadon/pendaftaran-rawat-jalan#readme",
+  "dependencies": {
+    "ajv": "^6.10.0",
+    "body-parser": "^1.19.0",
+    "custom-env": "^2.0.1",
+    "express": "^4.16.4",
+    "extsprintf": "^1.4.0",
+    "ini": "^1.3.5",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.8",
+    "needle": "^2.5.0",
+    "winston": "^3.2.1"
+  }
+}

@@ -1,0 +1,58 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$idcreate": "http://example.com/create.json",
+    "type": "object",
+    "title": "The Root Schema",
+    "required": [
+        "priority",
+        "user_id",
+        "poli_id",
+        "admission_source",
+        "patient_id",
+        "dokter_id",
+        "payment_id",
+        "status_pengunjung",
+        "umur",
+        "time_in",
+        "create_by"
+    ],
+    "properties": {
+        "user_id": {
+            "$idupdate": "#/properties/user_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "poli_id": {
+            "$idupdate": "#/properties/poli_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "admission_source": {
+            "$idupdate": "#/properties/admission_source",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "patient_id": {
+            "$idupdate": "#/properties/patient_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "dokter_id": {
+            "$idupdate": "#/properties/dokter_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "payment_id": {
+            "$idupdate": "#/properties/payment_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        }
+    }
+}

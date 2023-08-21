@@ -1,0 +1,35 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$idcreate": "http://example.com/create.json",
+    "type": "object",
+    "title": "The Root Schema",
+    "required": [
+        "queue_id",
+        "visit_id",
+        "patient_id",
+        "status_pulang",
+        "pakai_ambulance",
+        "pulang_by"
+    ],
+    "properties": {
+        "queue_id": {
+            "$idupdate": "#/properties/queue_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "visit_id": {
+            "$idupdate": "#/properties/visit_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        },
+        "patient_id": {
+            "$idupdate": "#/properties/patient_id",
+            "type": "string",
+            "minLength": 24,
+            "maxLength": 24
+        }
+    }
+}
